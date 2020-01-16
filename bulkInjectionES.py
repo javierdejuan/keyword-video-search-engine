@@ -47,7 +47,7 @@ def main(argv):
 
 
     # declare a client instance of the Python Elasticsearch library
-    client = Elasticsearch([{'host': '190.171.140.179', 'port': 9229}])
+    client = Elasticsearch([{'host': <your elastic search host>, 'port': <port_number>}])
 
 
 
