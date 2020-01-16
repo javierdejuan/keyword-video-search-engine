@@ -12,6 +12,20 @@ The process is split into 2 scripts witten in Python3:
 Then, you can enable a "google like" search with completion. This is done through the "magic" of elasticsearch, modelling the index as follows:
 
 ```python
-  def funtion():
-   return polla
+  mapping={
+        "mappings": {
+            "properties": {
+             "start" : {
+                "type" : "float"
+                    },
+             "timestamp" : {
+              "type" :"date"
+            },
+         "word" : {
+                "type" : "search_as_you_type",
+                "max_shingle_size" : 3
+            }
+        }
+       }
+     }
 ```
