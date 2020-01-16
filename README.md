@@ -6,5 +6,5 @@ You would need a google api credentials, and an Elastic Search server running ei
 
 ## Process
 The process is split into 2 scripts witten in Python3:
-*transcribe.py: This module downloads a video from youtube, stores it in a google bucket and then perfomrs the transcription
-*bulkinjectionES: This module gets the result (in a json file) and injects it into an ElasticSearch server
+* _transcribe.py_: This module downloads a video from youtube, stores it in a google bucket and then perfomrs the transcription
+* _bulkinjectionES_: This module gets the result (in a json file) and injects it into an ElasticSearch server
