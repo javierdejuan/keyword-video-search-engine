@@ -10,7 +10,7 @@ The process is split into 2 scripts witten in Python3:
 * _bulkinjectionES.py: This module gets the result (in a json file) and injects it into an ElasticSearch server.
 
 Then, you can enable a "google like" search with completion. This is done through the "magic" of elasticsearch, modelling the index as follows:
-Markup :  `code()`
+`code()`
  var specificLanguage_code = 
     {
         "data": {
@@ -24,7 +24,6 @@ Markup :  `code()`
                 "link": "http://open.spotify.com/track/5jhJur5n4fasblLSCOcrTp"
             }
         }
-    }
-Markup : ```javascript
+ ```javascript
 
 
