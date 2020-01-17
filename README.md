@@ -29,3 +29,10 @@ Then, you can enable a __"google like"__ search with completion. This is done th
        }
      }
 ```
+## Requeriments
+
+I spent a considerable big amount of time downloading and setting the correct modules.
+Google suggests to build an environement in order to install speech api mudules.
+You will find a requirements.txt file which may help you to install everything you need to run the above scritps.
+
+
